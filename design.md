@@ -1118,14 +1118,5 @@ GitHub Actions (CI/CD)
 
 ---
 
-**Document Approval**
-
-| Role | Name | Signature | Date |
-|------|------|-----------|------|
-| Technical Lead | | | |
-| Solutions Architect | | | |
-| Security Engineer | | | |
-
----
 
 *End of Document*
