@@ -203,11 +203,9 @@ Current AI coding assistants prioritize speed over learning, creating a dependen
 
 **NFR-2.2:** All data transmission shall use TLS 1.3 or higher encryption.
 
-**NFR-2.3:** The system shall comply with GDPR, CCPA, and FERPA regulations for educational data.
+**NFR-2.3:** User mistake data shall be anonymized if shared for analytics or improvement purposes.
 
-**NFR-2.4:** User mistake data shall be anonymized if shared for analytics or improvement purposes.
-
-**NFR-2.5:** The system shall provide clear privacy controls allowing users to:
+**NFR-2.4:** The system shall provide clear privacy controls allowing users to:
 - Delete all stored data
 - Opt out of cloud sync
 - Export their data
@@ -308,19 +306,11 @@ Current AI coding assistants prioritize speed over learning, creating a dependen
   - Limited to languages with reliable AST parsing libraries
   
 - **Resource Constraints:**
-  - Initial development budget: $150,000
-  - Development timeline: 6 months to MVP
-  - Team size: 4 developers, 1 designer, 1 product manager
-  
-- **Regulatory Constraints:**
-  - Must comply with educational data privacy laws (FERPA, COPPA)
-  - Cannot store data from users under 13 without parental consent
-  - Must provide data export and deletion capabilities (GDPR)
-
-- **Business Constraints:**
-  - Free tier must remain viable to attract student users
-  - Premium pricing must remain competitive with existing educational tools
-  - Must differentiate from existing AI coding assistants
+  - **Estimated implementation cost (optional):**
+    - Lambda → mostly free tier
+    - DynamoDB → minimal
+    - API Gateway → minimal
+    - Bedrock → depends on tokens, but small for demo
 
 ---
 
@@ -366,7 +356,6 @@ Current AI coding assistants prioritize speed over learning, creating a dependen
 - VS Code Extension API Documentation
 - Spaced Repetition Research (Ebbinghaus Forgetting Curve)
 - Educational Psychology Best Practices
-- GDPR and FERPA Compliance Guidelines
 
 ---
 
